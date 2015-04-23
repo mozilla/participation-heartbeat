@@ -34,3 +34,8 @@ node_modules
 
 app/public/stylesheets
 app/public/javascript/app.js
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

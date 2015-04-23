@@ -73,30 +73,10 @@ gulp.task('pretend-minify-app', ['bundle-app'], function() {
 });
 
 /**
- * Javascript and JSX linting
- */
-gulp.task('lint-app', function() {
-  // set up jshint to make use of jshint-jsx, as we're mixing
-  // plain javascript with React's JSX.
-  var jshint = require('gulp-jshint');
-  var jsxhinter = require('jshint-jsx');
-  jsxhinter.JSHINT = jsxhinter.JSXHINT;
-
-  return gulp.src(jsxSrc)
-    .pipe(jshint({
-      linter: 'jshint-jsx',
-      esnext: true
-    }))
-    .pipe(jshint.reporter('default'));
-});
-
-
-/**
  * JavaScript style validation, using JSCS
  */
 gulp.task('jscs-app', function() {
   var jsxcs = require("gulp-jsxcs");
-  var jshint = require('gulp-jshint');
   return gulp.src(jscsSrc)
     .pipe(jsxcs());
 });

@@ -30,7 +30,7 @@ var GithubIssuesSearch = React.createClass({
     return "?q=" + encodeURIComponent("assignee:" + this.props.handle + " state:open");
   },
   render: function() {
-    var planPrefix = "https://api.github.com/repos/MozillaFoundation/plan/issues";
+    var planPrefix = "https://api.github.com/repos/mozilla/participation-org/issues";
     var issues = this.state.items.filter(function(item) {
       // filter out the plan issues, called 'initiatives'
       return (item.url.indexOf(planPrefix) !== 0);
@@ -92,7 +92,7 @@ var GithubInitiativesSearch = React.createClass({
   mixins: [GithubSearch],
   makeFragment: function() {
     return "?q=" + encodeURIComponent("assignee:" + this.props.handle) +
-      "+state:open+org:MozillaFoundation+repo:plan";
+      "+state:open+org:mozilla+repo:participation-org";
   },
   render: function() {
     var issues = this.state.items.map(function(item) {

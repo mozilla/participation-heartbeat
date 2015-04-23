@@ -45,8 +45,8 @@ var app = express();
  * Express configuration.
  */
 app.set('port', process.env.PORT || 8080);
-app.set('github_org', 'MozillaFoundation');
-app.set('github_repo', 'plan');
+app.set('github_org', 'mozilla');
+app.set('github_repo', 'participation-org');
 
 app.use(sessions({
   cookieName: 'session',

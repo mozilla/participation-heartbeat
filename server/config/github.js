@@ -1,4 +1,4 @@
 module.exports = {
-  github_org: 'MozillaFoundation',
-  github_repo: 'plan'
+  github_org: 'mozilla',
+  github_repo: 'participation-org'
 }

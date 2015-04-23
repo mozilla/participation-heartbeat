@@ -1,6 +1,6 @@
 var secrets = require('./config/secrets');
 var Firebase = require('firebase');
-var ref = new Firebase('https://webmakerbuild.firebaseIO.com/');
+var ref = new Firebase('https://blistering-torch-1562.firebaseio.com/');
 var firebase_secret = secrets.firebaseSecret;
 var request = require('request');
 var extractRoles = require("./extractRoles.js");

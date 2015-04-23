@@ -1849,7 +1849,7 @@ var Splash = React.createClass({
           React.createElement(
             "h1",
             null,
-            "Let's Build Webmaker Together"
+            "Participation Heartbeat"
           ),
           React.createElement(
             "div",

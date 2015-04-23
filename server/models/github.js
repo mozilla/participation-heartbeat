@@ -102,7 +102,7 @@ Github.prototype.githubJSON = function(fragment, callback) {
     method: 'GET',
     uri: url,
     headers: {
-      'User-Agent': 'build.webmaker.org',
+      'User-Agent': 'heartbeat.mozilla.community',
       Accept: 'application/vnd.github.v3+json',
       Authorization: 'token ' + _this.token
     },
@@ -128,7 +128,7 @@ Github.prototype.getUserFromToken = function(token, callback) {
     method: 'GET',
     uri: _this.host + '/user',
     headers: {
-      'User-Agent': 'build.webmaker.org',
+      'User-Agent': 'heartbeat.mozilla.community',
       Accept: 'application/vnd.github.v3+json',
       Authorization: 'token ' + token
     },
@@ -152,7 +152,7 @@ Github.prototype.postIssueWithToken = function(token, body, callback) {
     method: 'POST',
     uri: _this.host + _this.repo + '/issues',
     headers: {
-      'User-Agent': 'build.webmaker.org',
+      'User-Agent': 'heartbeat.mozilla.community',
       Accept: 'application/vnd.github.v3+json',
       Authorization: 'token ' + token
     },
@@ -259,7 +259,7 @@ Github.prototype.getUserInfo = function(username, callback) {
     method: 'GET',
     uri: url,
     headers: {
-      'User-Agent': 'build.webmaker.org',
+      'User-Agent': 'heartbeat.mozilla.community',
       Accept: 'application/vnd.github.v3+json',
       Authorization: 'token ' + _this.token
     },

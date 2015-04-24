@@ -54,7 +54,7 @@ var Add = React.createClass({
             <div className="question">
               <h2>Decision Maker</h2>
               <p>Who is the single person who can be relied upon to make the decisions that will come up during this initiative?</p>
-              <GitHubPersonChooser name="decision" team="MoFos"/>
+              <GitHubPersonChooser name="decision" team="participation-infrastructure"/>
             </div>
             <div className="question">
               <h2>Driver (optional)</h2>

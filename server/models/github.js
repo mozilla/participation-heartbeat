@@ -281,7 +281,7 @@ Github.prototype.teamMembers = function(team, callback) {
   // get the members of the team
   // GET /teams/:id/members
   // For each member, get the user data (for names)
-  this.githubJSON("/orgs/MozillaFoundation/teams", function(err, teamsblob) {
+  this.githubJSON("/orgs/mozilla/teams", function(err, teamsblob) {
     // console.log(teamsblob);
     if (teamsblob) {
       teamsblob.forEach(function(teamblob) {

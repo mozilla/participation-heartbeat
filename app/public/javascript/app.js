@@ -237,7 +237,7 @@ var Add = React.createClass({
               null,
               "Who is the single person who can be relied upon to make the decisions that will come up during this initiative?"
             ),
-            React.createElement(GitHubPersonChooser, { name: "decision", team: "MoFos" })
+            React.createElement(GitHubPersonChooser, { name: "decision", team: "participation-infrastructure" })
           ),
           React.createElement(
             "div",

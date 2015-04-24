@@ -30,7 +30,7 @@ var Add = React.createClass({
 
             <div className="question">
               <h2>Who are the users you are trying to impact?</h2>
-              <p>Describe who is being affected by the problem you have described (visitors, teachers, staff, community).</p>
+              <p>Describe who is being affected by the problem you have described.</p>
               <textarea name="audience" rows="5"></textarea>
             </div>
 

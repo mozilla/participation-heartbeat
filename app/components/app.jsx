@@ -35,17 +35,11 @@ var App = React.createClass({
               <Link to="upcoming">Upcoming</Link>
             </li>
             <li>&nbsp;</li>
-            <li className="icon-audience"><Link to="audience">Our Audience</Link></li>
-            <li className="icon-strategy">
-            <a href="https://wiki.mozilla.org/Webmaker/2015">Strategy</a></li>
-            <li className="icon-dashboard"><Link to="dashboards">Dashboards</Link></li>
-            <li>&nbsp;</li>
             <li className="icon-how">How We Work</li>
             <ul className="sublist">
               <li><a href="http://book.webmaker.org">Process</a></li>
-              <li><Link to="design">Design</Link></li>
               <li className="icon-involved">
-                <a href="https://webmaker.org/en-US/getinvolved">Get Involved</a>
+                <a href="https://mozilla.org/contribute">Get Involved</a>
               </li>
               <li className="file-a-bug icon-github">
                 <Link to="bugs">File a bug</Link>
@@ -93,4 +87,3 @@ var routes = (
 Router.run(routes, Router.HistoryLocation, function(Handler) {
   React.render(<Handler/>, document.getElementById("app"));
 });
-

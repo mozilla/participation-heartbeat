@@ -10,10 +10,9 @@ var Design = React.createClass({
         <div className="main bugs">
           <div id="assets">
             <h2 className="clearfix">Do you have a bug or feature you want to file?</h2>
-            <p>For bugs or feature requests regarding this site, use the <a href="https://github.com/mozilla/build.webmaker.org/issues/"> build.webmaker.org</a> github issues list.</p>
-            <p>For the mobile Webmaker app (Android or FirefoxOS), use the <a href="https://github.com/mozilla/webmaker-app/issues/">webmaker-app</a> list.</p>
-            <p>For the Webmaker site (webmaker.org), use the <a href="https://github.com/mozilla/webmaker.org/issues/">webmaker-app</a> list.</p>
-            <p>(more links coming)</p>
+            <p>For bugs or feature requests regarding this site, use
+            <a href="https://github.com/mozilla/build.webmaker.org/issues/">this repository</a>
+            github issues list.</p>
           </div>
         </div>
       </div>
